@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "main";
+    font-display: swap;
+    src: url("../fonts/mainMinify.woff2");
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(5%);
+    }
+    75% {
+        transform: translateY(-5%);
+    }
+}
+.l-wrapper {
+    font-family: "main", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: 100;
+}
+.l-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.l-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3rem;
+    .l-main__inner {
+        width: 100%;
+        max-width: 750px;
+    }
+}
+.p-article {
+    text-align: center;
+    line-height: 1.5;
+    &__thumb {
+        width: 100%;
+        margin: 2rem 0;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    &__ttl {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+    &__content {
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+    }
+    &__btn {
+        margin-bottom: 1rem;
+        a {
+            padding: 2px;
+            border-bottom: .7px solid black;
+            transition: .3s;
+            &:hover {
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+.c-back-btn {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    a {
+        padding: 1px;
+        border-bottom: .7px solid black;
+        transition: .3s;
+        &:hover {
+            letter-spacing: 2px;
+        }
+    }
+}
+@media screen and (min-width: 600px) {
+    .sp-only {
+        display: none;
+    }
+}
+@media screen and (max-width: 599px) {
+    .l-main {
+        align-items: flex-start;
+    }
+    .p-article {
+        &__thumb {
+            margin: 0;
+        }
+        &__ttl {
+            font-size: 2.2rem;
+        }
+        &__btn {
+
+        }
+        &__content {
+            h2 {
+                font-size: 1.6rem;
+            }
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+    .pc-only {
+        display: none;
+    }
+}

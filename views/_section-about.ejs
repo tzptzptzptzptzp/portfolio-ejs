@@ -1,0 +1,42 @@
+<section data-about class="l-section">
+    <h1 class="l-section__title">About</h1>
+    <div class="l-section__inner">
+        <div class="p-about">
+            <div class="p-about__top">
+                <div class="p-about__icon">
+                    <video id="js-icon" src="video/bisyojo_chan.mp4" playsinline autoplay loop muted></video>
+                    <script>let i=document.getElementById("js-icon");i.playbackRate=.7;</script>
+                </div>
+            </div>
+            <div class="p-about__bottom">
+                <div class="p-about__head">
+                    <h2>テツカ ヒロキ</h2>
+                    <%- include("./_sns-link.ejs") %> 
+                </div>
+                <div class="p-about__content">
+                    <h3 class="pc-only">- Design Tomato代表 / Webエンジニア -</h3>
+                    <h3 class="sp-only">Design Tomato代表<br>Webエンジニア</h3>
+                    <h4>栃木県宇都宮市出身</h4>
+                    <p>幼い頃よりパソコンを使うのが<br class="sp-only">好きだったこともあり、<br>プログラミングに興味を持ち<br class="sp-only">独学でWeb制作を開始。<br>Wordpressテーマを複数制作し、<br class="sp-only">現在４サイトを運営中！</p>
+                    <p class="pc-only">趣味でやっているイラストのおかげで<br class="sp-only">デザイン感が養われ、<br>サイト制作のデザイン面も<br class="sp-only">担当しています。<br>イラスト制作ツールを<br class="sp-only">10年以上使っていることもあり、<br>サイト素材などの制作も得意です！</p>
+                </div>
+            </div>
+            <div class="p-about__link pc-only">
+                <ul>
+                    <li><a href="https://design-tomato.com/">DesignTomato.com</a></li>
+                    <li><a href="https://xn--j9jdc2d.jp/">てづっぴ.jp</a></li>
+                    <li><a href="https://39boubiroku.com/">39boubiroku.com</a></li>
+                    <li><a href="https://xn--j9jdc2d.com/">てづっぴ.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="l-footer">
+        <div class="c-footer__use">
+            <p>This site is</p>
+            <p>node.js / express / ejs / TypeScript / SCSS / FLOCSS / Webpack</p>
+            <p><a href="https://github.com/tzptzptzptzptzp/portfolio-l">GitHub</a></p>    
+        </div>
+        <small class="m-auto">&copy; 2020 てづっぴ.</small>
+    </footer>
+</section>

@@ -1,0 +1,28 @@
+<script type="module" defer>let e=document.querySelector(".l-wrapper");e.style.height=innerHeight+"px";</script>
+<main class="l-main">
+    <div class="l-main__inner">
+        <article class="p-article">
+            <div class="p-article__thumb">
+                <picture>
+                    <source srcset="../../images/<%- thumb %>-s.webp" media="(max-width: 599px)" type="image/webp"/>
+                    <source srcset="../../images/<%- thumb %>-s.jpg" media="(max-width: 599px)"/>            
+                    <source srcset="../../images/<%- thumb %>.webp" type="image/webp"/>
+                    <img src="../../images/<%- thumb %>.jpg" alt="Site Image" width="1600" height="850">
+                </picture>
+            </div>
+            <div class="p-article__ttl">
+                <h1><%- title %></h1>
+            </div>
+            <div class="p-article__content">
+                <h2><%- desc %></h2>
+                <p><%- use %></p>
+            </div>
+            <div class="c-back-btn">
+                <a href="/">Back</a>
+            </div>
+        </article>
+    </div>
+</main>
+<footer class="l-footer">
+    <small class="m-auto">&copy; 2020 てづっぴ.</small>
+</footer>    

@@ -1,0 +1,10 @@
+<style>@font-face{font-family:"firstView";src: url("fonts/firstView.woff2")format("woff2")}@keyframes arrowFloat{0%,100%{transform:translateY(0);}33%{transform:translateY(5px)}66%{transform:translateY(5px)}}.p-main-visual{display:flex;scroll-snap-align:start;position:relative;font-family:"firstView"}.p-main-visual__content{transform:translateY(300px);opacity:0;margin:auto;font-size:6rem;user-select:none;transition:1s}.loaded .p-main-visual__content{transform:none;opacity:1}.p-main-visual__arrow{position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)scale(1.5,.8);opacity:0;transition: 1s .5s}.loaded .p-main-visual__arrow{opacity:1}.p-main-visual__arrow svg{animation:arrowFloat 1s linear infinite}</style>
+<div class="p-main-visual">
+    <div class="p-main-visual__content">
+        <h1>Portfolio</h1>
+    </div>
+    <div class="p-main-visual__arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width=".5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-down"><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+    </div>
+</div>
+<script type="module" defer>let e=document.querySelector(".p-main-visual");e.style.height=innerHeight+"px";</script>

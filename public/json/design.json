@@ -1,0 +1,30 @@
+[
+    {
+        "id": "banner",
+        "title": "バナー・サムネイル画像",
+        "thumb": "design/design-banner",
+        "desc": "運営サイトで使用している画像素材です。<br>クリックしたくなるようなデザインを意識しています。",
+        "use": "ClipStudioPaint / Adobe > Photoshop / Illustrator"
+    },
+    {
+        "id": "tomato",
+        "title": "サイト用画像素材",
+        "thumb": "design/design-tmt",
+        "desc": "サイトに合った画像素材を制作します。<br>Web用にサイズ、形式も最適化しています。",
+        "use": "ClipStudioPaint / Adobe > Photoshop / Illustrator"
+    },
+    {
+        "id": "block",
+        "title": "タイトル・見出し画像",
+        "thumb": "design/design-block",
+        "desc": "幅広く多様なデザインを製作します。<br>イラストを描いているので画像素材の制作も得意です。",
+        "use": "ClipStudioPaint / Adobe > Photoshop / Illustrator"
+    },
+    {
+        "id": "icon",
+        "title": "アイコン素材",
+        "thumb": "design/design-icon",
+        "desc": "様々な絵柄で制作できます。<br>要望に沿った満足度の高いアイコンを描きます。",
+        "use": "ClipStudioPaint / Adobe > Photoshop / Illustrator"
+    }
+]
